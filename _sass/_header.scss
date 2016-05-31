@@ -1,0 +1,44 @@
+/**
+ * navbar styling
+ */
+.navbar {
+	min-height: 70px;
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: $dark-background;
+	border-color: transparent;
+	
+    .navbar-nav > li > a {
+		color: $light-text;
+		font-weight: 400;
+		font-size: $base-font-size;
+	}
+}
+
+.navbar-header .navbar-brand {
+	color: $brand-color;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-header .navbar-brand:hover  {
+	color: $nav-hover;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #9eb800;
+	background-color: blue;
+}
+
+/**
+ * Page Header
+ */
+.page-header {
+	background: $light-background;
+	margin-top: 60px;
+	margin-bottom: 0;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: $light-text;
+}

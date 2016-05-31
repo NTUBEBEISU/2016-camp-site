@@ -1,0 +1,26 @@
+---
+layout: page
+title: 最新消息
+permalink: /news/
+---
+<section id="news" class="news light">
+    <div class="row">
+        <! -- BLOG POSTS LIST -->
+        <div class="col-xs-12 col-sm-offset-2 col-sm-8">
+
+            {% for post in site.categories['news'] %}
+                <! -- Blog Post -->
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    <img class="post-image" src="{{ "/assets/news/" | prepend: site.baseurl }}{{ post.img }}">
+                </a>    
+                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
+                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}</csmall></p>
+                {{ post.excerpt }}
+                <p><a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-theme">繼續閱讀>></a></p>
+                <div class="hline"></div>
+
+            {% endfor %}
+
+        </div><! --/col-xs-12 -->
+    </div><! --/row -->
+</section><! --/news -->

@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "西悠飯店 背包客房"
+date:   2016-05-23 04:23:33 +0000
+img: cutaipei.jpg
+site: http://cutaipei.cheap.com.tw/index.php
+categories: accommodation
+---
+西悠飯店台北店位處於交通樞紐，鄰近捷運"雙連站"只需步行十分鐘可抵達，交通便利、四通八達，周遭商店，處處都可逛街、購物、品嚐馳名的台北傳統小吃、台北名產，兼具商務及休閒的環境與功能，無論出差、旅遊，台北西悠飯店都是您最好的選擇。

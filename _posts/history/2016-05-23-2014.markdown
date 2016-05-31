@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "2014 生醫電資營"
+date:   2016-05-23 04:23:33 +0000
+img: 2014.jpg
+site: http://www.bebi.ntu.edu.tw/camp2014/
+categories: history
+---
+腦科學技術與商業應用
+
+2014生醫電資營 & 臨床需求探勘競賽

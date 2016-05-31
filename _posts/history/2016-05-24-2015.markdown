@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "2015 生醫電資營"
+date:   2016-05-23 04:23:33 +0000
+img: 2015.jpg
+site: http://www.bebi.ntu.edu.tw/camp2015/
+categories: history
+---
+物聯網於醫療健康之應用
+
+2015台大生醫電資營X生醫創新黑克松

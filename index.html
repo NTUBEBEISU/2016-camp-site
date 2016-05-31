@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<section id="title" class="title">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+        <h3>2016 生醫電資營</h3>
+        <h1>展望未來十年：<br>新世代生醫技術</h1>
+        <h3>個人化醫療的機會與挑戰</h3>
+        <a href="http://goo.gl/forms/963vsRwS7r" target="_blank" class="btn btn-title-theme btn-lg" style="margin-top: 15px">立即報名</a>
+      </div>
+    </div><!-- /row -->
+  </div><!-- /container -->
+</section><!-- /title -->
+
+<section id="subtitle" class="subtitle light">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <i class="fa fa-comments fa-5x"></i>
+          <h2><i class="fa fa-quote-left"></i>整合生物、硬體、軟體三個面向，規劃適應性、更個人化的療程與藥物，迎向更健康的未來！<i class="fa fa-quote-right"></i></h2>
+        </div>
+    </div><!-- /row -->
+  </div><!-- /container -->
+</section><!-- /subtitle -->
+
+<section id="news" class="news">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>最新消息</h1>
+      </div>
+    </div><!-- /row -->
+    <div class="row">
+      {% for post in site.categories['news'] %} 
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <div class="thumbnail-image" style="background-image: url({{ "/assets/news/" | prepend: site.baseurl }}{{ post.img }})"></div>
+          <div class="caption">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              <h3>({{ post.date | date: "%Y-%m-%d" }}) {{ post.title }}</h3>
+            </a>
+          </div><!-- /caption -->
+        </div><!-- /thumbnail -->
+      </div><!-- /col -->
+      {% endfor %}
+      <!--<div class="col-xs-offset-2 col-xs-8">-->
+        <!--<a href={{"/news/" | prepend: site.baseurl }} class="btn btn-theme">更多消息...</a>-->
+      <!--</div>-->
+    </div><!-- /row -->
+  </div><!-- /container -->
+</section><!-- /news -->

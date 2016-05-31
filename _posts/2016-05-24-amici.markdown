@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "艾美琪旅店六星級背包客"
+date:   2016-05-23 04:23:33 +0000
+img: amici.jpg
+site: https://101amici.hotel.com.tw/
+categories: accommodation
+---
+離捷運站很近、提供背包客房

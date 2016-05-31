@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{% include page-header.html %}
+<section class="post light">
+    <div class="row">
+        <! -- SINGLE POST -->
+        <div class="col-xs-12">
+            <! -- Blog Post  -->
+            <p><img class="post-image" src="{{ "/assets/news/" | prepend: site.baseurl }}{{ page.img }}"></p>
+            <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">({{ page.date | date: "%Y-%m-%d" }}) {{ page.title }}</h3></a>
+            <csmall></csmall>
+              
+            {{ content }}
+
+        </div><! --/col-lg-12 -->
+    </div><! --/row -->
+</section><! --/post -->

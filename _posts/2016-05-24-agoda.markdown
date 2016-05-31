@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Agoda"
+date:   2016-05-23 04:23:33 +0000
+img: agoda.jpg
+site: http://www.agoda.com/
+categories: accommodation
+---
+訂飯店、住Villa、找民宿 包山包海超過775,000間國內外各類住宿！

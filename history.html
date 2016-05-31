@@ -1,0 +1,23 @@
+---
+layout: page
+title: 歷屆營隊
+permalink: /history/
+---
+<section id="history" class="news light">
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-offset-2 col-sm-8">
+
+            {% for post in site.categories['history'] %}
+                <a href="{{ "/assets/history/" | prepend: site.baseurl }}{{ post.img }}" target="_blank"><img class="poster" src="{{ "/assets/history/" | prepend: site.baseurl }}{{ post.img }}"></a>
+                <h3 class="ctitle">{{ post.title }}</h3>
+                {{ post.content }}
+                {% if post.site %}<p><a href="{{ post.site }}" class="btn btn-theme" target="_blank">前往 >></a></p>{% endif %}
+                <div class="hline"></div>
+
+            {% endfor %}
+
+        </div><!--/col-xs-12 -->
+    </div><!--/row -->
+    </div><!-- /container -->
+</section><!--/accommodation -->

@@ -1,0 +1,26 @@
+---
+layout: page
+title: 住宿資訊
+permalink: /accommodation/
+---
+<section id="accommodation" class="news light">
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h4>注意：本次營隊沒有提供住宿服務，請參考以下資訊，自行洽詢預約。</h4>
+        </div>
+        <div class="col-xs-12 col-sm-offset-2 col-sm-8">
+
+            {% for post in site.categories['accommodation'] %}
+                <img class="post-image" src="{{ "/assets/accomodation/" | prepend: site.baseurl }}{{ post.img }}">
+                <h3 class="ctitle">{{ post.title }}</h3>
+                {{ post.content }}
+                <p><a href="{{ post.site }}" class="btn btn-theme" target="_blank">前往訂房網站 >></a></p>
+                <div class="hline"></div>
+
+            {% endfor %}
+
+        </div><!--/col-xs-12 -->
+    </div><!--/row -->
+    </div><!-- /container -->
+</section><!--/accommodation -->

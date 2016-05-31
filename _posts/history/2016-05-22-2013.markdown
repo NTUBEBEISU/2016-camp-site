@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "2013 生醫電資營"
+date:   2016-05-23 04:23:33 +0000
+img: 2013.jpg
+site:
+categories: history
+---
+癌症與生醫資訊
+
+2013生醫電資營 & 癌症與生醫資訊

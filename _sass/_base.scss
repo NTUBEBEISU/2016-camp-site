@@ -1,0 +1,383 @@
+/**
+ * Basic styling
+ */
+body {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    color: $text-color;
+    background-color: $background-color;
+}
+
+.row {
+	margin: 0;
+}
+
+/**
+ * Images
+ */
+ 
+.thumbnail {
+	position: relative;
+	height: 300px;
+	a {
+		color: $text-color;
+		transition: color 0.5s;
+		
+		&:hover {
+			color: $nav-hover;
+		}
+	}
+}
+
+.thumbnail-image {
+	position: relative;
+    width:  100%;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.post-image {
+	max-width: 100%;
+	max-height: 300px;
+}
+
+.poster {
+	max-width: 100%;
+	max-height: 600px;
+}
+
+@media screen and (max-width: 768px) {
+	.thumbnail {
+		height: 150px;
+		
+		.caption {
+			width: 100%;
+			background-color: rgba(255, 255, 255, 0.8);
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+	.thumbnail-image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+	}
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $spacing-unit;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-family: $base-font-family;
+    font-weight: $base-font-weight;
+}
+
+@media screen and (max-width: 768px) {
+	h1 {
+		font-size: 1.5em;
+	}
+	h2 {
+		font-size: 1.2em;
+	}
+}
+
+/**
+ * Links
+ */
+a {
+    color: $brand-color;
+    text-decoration: none;
+	-webkit-transition: background-color .4s linear, color .4s linear;
+	-moz-transition: background-color .4s linear, color .4s linear;
+	-o-transition: background-color .4s linear, color .4s linear;
+	-ms-transition: background-color .4s linear, color .4s linear;
+	transition: background-color .4s linear, color .4s linear;
+
+    &:hover {
+        color: $text-color;
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+/**
+ * Buttons
+ */
+.btn-theme {
+  color: $light-text;
+  background-color: $light-background;
+  border-color: $dark-background;
+  margin: 4px;
+  transition: background-color 0.5s;
+}
+
+.btn-title-theme {
+  color: $light-text;
+  background-color: $dark-background;
+  border-color: $dark-background;
+  margin: 4px;
+  transition: background-color 0.5s;
+}
+
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme:active,
+.btn-theme.active,
+.open .dropdown-toggle.btn-theme {
+  color: $light-text;
+  background-color: $dark-background;
+}
+.btn-title-theme:hover,
+.btn-title-theme:focus,
+.btn-title-theme:active,
+.btn-title-theme.active,
+.open .dropdown-toggle.btn-title-theme {
+  color: $light-text;
+  background-color: $light-background;
+  border-color: $light-text;
+}
+
+
+/**
+ * icon
+ */
+.icon-big {
+	color: white;
+	font-size: 60px;
+	padding: 15px;
+}
+
+/**
+ * Sections
+ */
+
+section {
+	padding: 15px 0;
+	text-align: center;
+	background-color: $light-background;
+	color: $light-text;
+	&.light {
+	    background-color: $background-color;
+	    color: $text-color;
+	}
+	p {
+		font-size: 1.2em;
+	}
+
+}
+
+.hline {
+	border-bottom: 2px solid $dark-background;
+	margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+	section {
+		padding: 50px 0;
+		h1 {
+			margin-bottom: 25px;
+		}
+		h4 {
+			font-size: 1.7em;
+		}
+	}
+}
+
+
+/**
+ * Title
+ */
+.title {
+	position: relative;
+	background: $light-background;
+	background: -webkit-linear-gradient(right top, $light-background, $dark-background); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom left, $light-background, $dark-background); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom left, $light-background, $dark-background); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom left, $light-background, $dark-background); /* Standard syntax */
+	overflow: hidden;
+	min-height: 0px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: $light-text;
+}
+
+@media screen and (min-width: 768px) {
+	.title::before {
+		content: "";
+		position: absolute;
+		width: 200%;
+  		height: 200%;
+  		top: -70%;
+  		left: -50%;
+		background: url('../assets/dna.png') no-repeat 67% top;
+		background-size: 10%;
+		-webkit-transform: rotate(30deg);
+		-moz-transform: rotate(30deg);
+		-ms-transform: rotate(30deg);
+		-o-transform: rotate(30deg);
+		transform: rotate(30deg);
+	}
+	.title br {
+		display: none;
+	}
+}
+
+
+/**
+ * Subtitle
+ */
+.subtitle {
+	position: relative;
+	overflow: hidden;
+}
+
+.subtitle .fa-quote-left {
+	padding-right: 10px;
+}
+
+.subtitle .fa-quote-right {
+	padding-left: 10px;
+}
+@media screen and (min-width: 768px) {
+	.subtitle::before {
+			content: "";
+			position: absolute;
+			width: 200%;
+	  		height: 200%;
+	  		top: -200%;
+	  		left: -40%;
+			background: url('../assets/dna.png') no-repeat 20% top;
+			background-size: 10%;
+			-webkit-transform: rotate(-30deg);
+			-moz-transform: rotate(-30deg);
+			-ms-transform: rotate(-30deg);
+			-o-transform: rotate(-30deg);
+			transform: rotate(-30deg);
+	}
+}
+
+
+/**
+ * Camp
+ */
+
+.camp {
+	margin-top: 60px;
+}
+
+/**
+ * News, Post
+ */
+.news a, .post a {
+	color: $text-color;
+}
+.news a.btn {
+	color: $light-text;
+}
+
+/**
+ * Place
+ */
+ 
+.place iframe {
+ 	border: 0;
+ }
+ 
+/**
+ * Conf
+ */
+.conf h4 {
+	font-size: 1.4em;
+}
+.conf p {
+	font-size: 1em;
+}
+
+/**
+ * Speaker
+ */
+.speaker .ctitle {
+	font-size: 1em;
+	margin-bottom: 5px;
+}
+.speaker .ctalk {
+	font-size: 0.8em;
+	margin-bottom: 5px;
+}
+
+a.clink {
+	color: $dark-text;
+	transition: color 0.5s;
+}
+a.clink:hover {
+	color: $text-color;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.speaker-detail .ctitle {
+	font-size: 1.5em;
+}
+.speaker-detail h3 {
+	font-size: 1.5em;
+}
+@media screen and (min-width: 768px) {
+	.speaker .ctitle {
+		font-size: 1.5em;
+	}
+	.speaker .ctalk {
+		font-size: 1em;
+	}
+	.speaker-detail .ctitle {
+		font-size: 1.8em;
+	}
+	.speaker-detail h3 {
+		font-size: 1.8em;
+	}
+}
