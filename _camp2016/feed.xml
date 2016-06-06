@@ -6,9 +6,22 @@
 </description>
     <link>http://www.bebi.ntu.edu.tw/camp2016/</link>
     <atom:link href="http://www.bebi.ntu.edu.tw/camp2016/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Jun 2016 06:43:50 +0000</pubDate>
-    <lastBuildDate>Mon, 06 Jun 2016 06:43:50 +0000</lastBuildDate>
+    <pubDate>Mon, 06 Jun 2016 07:04:43 +0000</pubDate>
+    <lastBuildDate>Mon, 06 Jun 2016 07:04:43 +0000</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>廠商擺攤取消</title>
+        <description>&lt;p&gt;因場地因素，原訂廠商擺攤與宣傳活動取消&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Jun 2016 00:23:33 +0000</pubDate>
+        <link>http://www.bebi.ntu.edu.tw/camp2016/news/2016/06/06/time.html</link>
+        <guid isPermaLink="true">http://www.bebi.ntu.edu.tw/camp2016/news/2016/06/06/time.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>報名時間延長！</title>
@@ -16,8 +29,8 @@
 快點來報名唷！&lt;/p&gt;
 </description>
         <pubDate>Tue, 24 May 2016 00:23:33 +0000</pubDate>
-        <link>http://www.bebi.ntu.edu.tw/camp2016/news/2016/05/24/time.html</link>
-        <guid isPermaLink="true">http://www.bebi.ntu.edu.tw/camp2016/news/2016/05/24/time.html</guid>
+        <link>http://www.bebi.ntu.edu.tw/camp2016/news/2016/05/24/no-sponsor.html</link>
+        <guid isPermaLink="true">http://www.bebi.ntu.edu.tw/camp2016/news/2016/05/24/no-sponsor.html</guid>
         
         
         <category>news</category>
@@ -173,75 +186,54 @@
       </item>
     
       <item>
-        <title>2015 生醫電資營</title>
-        <description>&lt;p&gt;物聯網於醫療健康之應用&lt;/p&gt;
-
-&lt;p&gt;2015台大生醫電資營X生醫創新黑克松&lt;/p&gt;
+        <title>艾美琪旅店六星級背包客</title>
+        <description>&lt;p&gt;離捷運站很近、提供背包客房&lt;/p&gt;
 </description>
         <pubDate>Mon, 23 May 2016 04:23:33 +0000</pubDate>
-        <link>http://www.bebi.ntu.edu.tw/camp2016/history/2016/05/23/2015.html</link>
-        <guid isPermaLink="true">http://www.bebi.ntu.edu.tw/camp2016/history/2016/05/23/2015.html</guid>
+        <link>http://www.bebi.ntu.edu.tw/camp2016/accommodation/2016/05/23/hotel.html</link>
+        <guid isPermaLink="true">http://www.bebi.ntu.edu.tw/camp2016/accommodation/2016/05/23/hotel.html</guid>
         
         
-        <category>history</category>
+        <category>accommodation</category>
         
       </item>
     
       <item>
-        <title>2014 生醫電資營</title>
-        <description>&lt;p&gt;腦科學技術與商業應用&lt;/p&gt;
-
-&lt;p&gt;2014生醫電資營 &amp;amp; 臨床需求探勘競賽&lt;/p&gt;
+        <title>西悠飯店 背包客房</title>
+        <description>&lt;p&gt;西悠飯店台北店位處於交通樞紐，鄰近捷運”雙連站”只需步行十分鐘可抵達，交通便利、四通八達，周遭商店，處處都可逛街、購物、品嚐馳名的台北傳統小吃、台北名產，兼具商務及休閒的環境與功能，無論出差、旅遊，台北西悠飯店都是您最好的選擇。&lt;/p&gt;
 </description>
         <pubDate>Mon, 23 May 2016 04:23:33 +0000</pubDate>
-        <link>http://www.bebi.ntu.edu.tw/camp2016/history/2016/05/23/2014.html</link>
-        <guid isPermaLink="true">http://www.bebi.ntu.edu.tw/camp2016/history/2016/05/23/2014.html</guid>
+        <link>http://www.bebi.ntu.edu.tw/camp2016/accommodation/2016/05/23/cutaipei.html</link>
+        <guid isPermaLink="true">http://www.bebi.ntu.edu.tw/camp2016/accommodation/2016/05/23/cutaipei.html</guid>
         
         
-        <category>history</category>
+        <category>accommodation</category>
         
       </item>
     
       <item>
-        <title>2013 生醫電資營</title>
-        <description>&lt;p&gt;癌症與生醫資訊&lt;/p&gt;
-
-&lt;p&gt;2013生醫電資營 &amp;amp; 癌症與生醫資訊&lt;/p&gt;
+        <title>艾美琪旅店六星級背包客</title>
+        <description>&lt;p&gt;離捷運站很近、提供背包客房&lt;/p&gt;
 </description>
         <pubDate>Mon, 23 May 2016 04:23:33 +0000</pubDate>
-        <link>http://www.bebi.ntu.edu.tw/camp2016/history/2016/05/23/2013.html</link>
-        <guid isPermaLink="true">http://www.bebi.ntu.edu.tw/camp2016/history/2016/05/23/2013.html</guid>
+        <link>http://www.bebi.ntu.edu.tw/camp2016/accommodation/2016/05/23/amici.html</link>
+        <guid isPermaLink="true">http://www.bebi.ntu.edu.tw/camp2016/accommodation/2016/05/23/amici.html</guid>
         
         
-        <category>history</category>
+        <category>accommodation</category>
         
       </item>
     
       <item>
-        <title>2012 生醫電資營</title>
-        <description>&lt;p&gt;生醫電資領域的雲端應用&lt;/p&gt;
-
-&lt;p&gt;2012生醫電資營 &amp;amp; 生醫電資領域的雲端應用&lt;/p&gt;
+        <title>Agoda</title>
+        <description>&lt;p&gt;訂飯店、住Villa、找民宿 包山包海超過775,000間國內外各類住宿！&lt;/p&gt;
 </description>
         <pubDate>Mon, 23 May 2016 04:23:33 +0000</pubDate>
-        <link>http://www.bebi.ntu.edu.tw/camp2016/history/2016/05/23/2012.html</link>
-        <guid isPermaLink="true">http://www.bebi.ntu.edu.tw/camp2016/history/2016/05/23/2012.html</guid>
+        <link>http://www.bebi.ntu.edu.tw/camp2016/accommodation/2016/05/23/agoda.html</link>
+        <guid isPermaLink="true">http://www.bebi.ntu.edu.tw/camp2016/accommodation/2016/05/23/agoda.html</guid>
         
         
-        <category>history</category>
-        
-      </item>
-    
-      <item>
-        <title>2011 生醫電資營</title>
-        <description>&lt;p&gt;2011 生醫電資營&lt;/p&gt;
-</description>
-        <pubDate>Mon, 23 May 2016 04:23:33 +0000</pubDate>
-        <link>http://www.bebi.ntu.edu.tw/camp2016/history/2016/05/23/2011.html</link>
-        <guid isPermaLink="true">http://www.bebi.ntu.edu.tw/camp2016/history/2016/05/23/2011.html</guid>
-        
-        
-        <category>history</category>
+        <category>accommodation</category>
         
       </item>
     
