@@ -15,4 +15,4 @@ url: "http://www.bebi.ntu.edu.tw" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-exclude: ["build.sh"]
+exclude: ["build.sh", "sponsor.html"]
