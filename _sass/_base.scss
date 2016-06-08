@@ -381,3 +381,27 @@ ul {
 		font-size: 1.8em;
 	}
 }
+
+.sponsor-image {
+	max-height: 100px;
+}
+
+.logo-margin {
+	margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+	.sponsor-image {
+		max-height: 200px;
+	}
+	
+	.vertical-align {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+	}
+	.logo-margin {
+		margin-top: 0;
+	}
+}
