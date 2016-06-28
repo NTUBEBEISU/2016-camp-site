@@ -1,8 +1,0 @@
----
-layout: speaker
-title:  "宣捷生物科技應邀講者"
-talk: ""
-date:   2016-05-20 04:23:33 +0000
-img: question.png
-categories: speaker
----
