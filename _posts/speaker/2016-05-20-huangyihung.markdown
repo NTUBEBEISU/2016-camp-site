@@ -1,7 +1,7 @@
 ---
 layout: speaker
-title:  "黃曳弘 副研究員"
-talk: ""
+title:  "宣捷生技 黃曳弘 副研究員"
+talk: "影像分析軟體於精準醫療之應用"
 date:   2016-05-20 04:23:33 +0000
 img: huangyihung.jpg
 categories: speaker
