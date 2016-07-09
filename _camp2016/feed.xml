@@ -6,9 +6,24 @@
 </description>
     <link>http://www.bebi.ntu.edu.tw/camp2016/</link>
     <atom:link href="http://www.bebi.ntu.edu.tw/camp2016/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Jul 2016 02:18:26 +0000</pubDate>
-    <lastBuildDate>Wed, 06 Jul 2016 02:18:26 +0000</lastBuildDate>
+    <pubDate>Sat, 09 Jul 2016 15:04:25 +0000</pubDate>
+    <lastBuildDate>Sat, 09 Jul 2016 15:04:25 +0000</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>颱風警報</title>
+        <description>&lt;p&gt;由於颱風的到來，營期活動比照台北市停班停課制度。&lt;/p&gt;
+
+&lt;p&gt;若3天營期，其中一天停班停課，則7/9(六)下午的專題競賽將會取消，退費視情況而定&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Jul 2016 00:23:33 +0000</pubDate>
+        <link>http://www.bebi.ntu.edu.tw/camp2016/news/2016/07/06/typhoon.html</link>
+        <guid isPermaLink="true">http://www.bebi.ntu.edu.tw/camp2016/news/2016/07/06/typhoon.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>報名時間延長至6/11！</title>
@@ -226,19 +241,6 @@
         <pubDate>Mon, 23 May 2016 04:23:33 +0000</pubDate>
         <link>http://www.bebi.ntu.edu.tw/camp2016/accommodation/2016/05/23/cutaipei.html</link>
         <guid isPermaLink="true">http://www.bebi.ntu.edu.tw/camp2016/accommodation/2016/05/23/cutaipei.html</guid>
-        
-        
-        <category>accommodation</category>
-        
-      </item>
-    
-      <item>
-        <title>艾美琪旅店六星級背包客</title>
-        <description>&lt;p&gt;離捷運站很近、提供背包客房&lt;/p&gt;
-</description>
-        <pubDate>Mon, 23 May 2016 04:23:33 +0000</pubDate>
-        <link>http://www.bebi.ntu.edu.tw/camp2016/accommodation/2016/05/23/amici.html</link>
-        <guid isPermaLink="true">http://www.bebi.ntu.edu.tw/camp2016/accommodation/2016/05/23/amici.html</guid>
         
         
         <category>accommodation</category>
